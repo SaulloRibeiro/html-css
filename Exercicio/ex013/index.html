@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercitando</title>
+</head>
+<body>
+    <h1>Usando imagens responsivas</h1>
+    <p>Observe meu aprendizado na prática</p>
+    
+    <picture>
+    
+        <source media="(max-width: 750px)" srcset="img2/foto1.jpg" type="image/jpeg">
+    
+        <source media="(max-width: 1050px)" srcset="img2/foto2.jpg" type="image/jpeg">
+    
+        <img src="img2/foto3.jpg" alt="Imagem flexível de um leão">
+    
+    </picture>
+    
+    <h1>Colocando áudios no meu site</h1>
+    
+    <audio src="audio/BEAT MANDELÃO TA DE VOLTA - MC Rafa Original - O m(MP3_70K).mp3" controls></audio>
+    
+    <h2>Outra forma de colocar áudios no site inclusive de uma forma mais ideal</h2>
+    
+    <audio preload = "metadata" controls>
+        <source src="audio/BEAT MANDELÃO TA DE VOLTA - MC Rafa Original - O m(MP3_70K).mp3" type="audio/mpeg">
+       
+        <source src="audio/BEAT MANDELÃO TA DE VOLTA - MC Rafa Original - O m(MP3_70K).ogg" type="audio/ogg">
+       
+        <source src="audio/BEAT MANDELÃO TA DE VOLTA - MC Rafa Original - O m(MP3_70K).wav" srcset="audio/wav">
+       
+        <p>Infelismente seu navegador não abre audios <a href="audio/BEAT MANDELÃO TA DE VOLTA - MC Rafa Original - O m(MP3_70K).mp3">Clique aqui para realizar o dowload do audio MP3.</a></p>
+    </audio>
+    
+    <hr>
+    <hr>
+    
+    <video src="videos/pexels-pranjall-kumar-6185321 (720p).mp4" width="500px" controls></video>
+    
+    <br>
+   
+    <video controls width="500px" height="282px">
+        <source src="videos/pexels-matheus-natan-13331465 (1080p).mp4" type="video/mp4">       
+    </video>
+   
+    <br>
+    <!--Usando o incoporar de plataformas gratuitas de hospedagem de videos(no nosso caso o youTube)-->
+    <iframe width="500" height="282" src="https://www.youtube.com/embed/TCeyIwFGkYo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br>
+
+    <iframe width="500" height="282" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <p><a href="audio/BEAT MANDELÃO TA DE VOLTA - MC Rafa Original - O m(MP3_70K).mp3" download="BEAT MANDELÃO TA DE VOLTA - MC Rafa Original - O m(MP3_70K).mp3" type="audio/mpeg">Clique Aqui</a> para baixar a música</p>
+</body>
+</html> 
+
+<!--Link abaixo é um site que mostra os pricipais navegadores e formatos de video compativeis-->
+<!--https://www.reneelab.biz/no-momento-seu-navegador-nao-reconhece-os-formatos-de-video-disponiveis.html-->
+
+
+<!--Site de conversor de audios: https://online-audio-converter.com/pt/-->
+<!--Site para conversor de videos: -->
+
+<!--Como colocar links de downloads de audio ou de video: https://stackoverflow.com/questions/20956434/create-download-link-for-music-or-video-->

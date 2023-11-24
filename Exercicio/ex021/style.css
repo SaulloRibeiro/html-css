@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+body {
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.1em;
+    
+}
+
+h1 {
+    font-family: 'Tangerine', cursive;
+    font-size: 3em;
+}
+
+h2 {
+    font-family: 'Heebo', Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    font-weight: normal;
+}
+
+blockquote {
+    font-family: "Abel", sans-serif;
+    font-style: italic;
+    font-size: 1.3em;
+    font-weight: normal;
+}

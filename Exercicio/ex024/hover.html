@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>texto escondindo</title>
+    <style>
+        div{
+            color: red;
+        }
+
+        div.Rola{
+            text-align: right;
+        }
+        div > p{
+            display: none;
+        }
+        div:hover > p{
+            display: block;
+            background-color: red;
+            color: white;
+            height: 100px;
+            width: 300px;
+            font-family: monospace;
+            font-size: 1em;
+            text-align: center;
+            border-radius: 4%;
+        }
+        .rola:hover > p{
+            display: block;
+            background-color: red;
+            color: white;
+            height: 100px;
+            width: 300px;
+            font-family: monospace;
+            font-size: 1em;
+            text-align: justify;
+            border-radius: 4%;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro placeat doloribus quaerat eaque sequi. Possimus totam quaerat, culpa ab odio repellendus ex a doloribus, similique aliquam, molestias est temporibus iste?</p>
+    <div>
+        passe o mouse aqui
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quaerat magni odit velit dolorem quidem debitis porro quos recusandae. Cum doloremque fugiat quod exercitationem? Velit provident eveniet molestias eius tempora.</p>      
+    </div>  
+    
+    <div id="Rola">
+        passe o mouse aqui de novo
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae molestias magni iste, praesentium incidunt dicta pariatur unde amet? Aperiam maxime facilis provident porro optio nostrum voluptate, similique hic sapiente illum.</p>
+    </div>
+</body>
+</html>

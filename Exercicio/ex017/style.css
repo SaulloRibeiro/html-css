@@ -1,0 +1,33 @@
+body {
+    background-color: #001114;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: #d8d8d8;
+}
+
+h1 {
+    background-color: #027F96;
+}
+
+h2 {
+    color: #03D7FF;
+}
+
+ul {
+    list-style-type:disc;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #d8d8d8;
+}
+
+ol {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #03D7FF;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    color:#03D7FF;
+}
+

@@ -1,0 +1,11 @@
+body {
+    font-weight: bolder;
+    font-size: 2em;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* isso é igual a isso:
+    font: italic bolder 3em Arial, sans-serif;
+    */
+}
+
+

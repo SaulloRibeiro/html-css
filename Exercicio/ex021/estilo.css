@@ -1,0 +1,45 @@
+/*fonte sendo usada do google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
+
+/*Fonte abaixada pelo site Dafont*/
+@font-face {
+    font-family: "lovy";
+    src: url('fonts/love story ttf.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'Delicada e Romantica' ;
+    src: url('fonts/Angelia Beauty.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Usando a  fonte abaixada acima*/
+h1 {
+    font-family:'lovy',Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: #e20909; 
+}
+
+
+h2 {
+    font-family: "Delicada e Romantica", Arial, Helvetica, sans-serif;
+    font-size: 2.3em;
+    font-weight: normal;
+    font-style: normal;
+    color: #e20909;
+}
+
+
+/*Usado a fonte do google fontes*/
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+/*Site para saber a compartibilidade dos formatos de arquivos
+https://www.creativefabrica.com/pt/the-ultimate-font-guide/difference-between-font-formats/#:~:text=Quais%20s%C3%A3o%20os%20diferentes%20formatos%20de%20fonte%20dispon%C3%ADveis&text=OTF%20(OpenType),EOT%20(Embedded%20Open%20Type)*/

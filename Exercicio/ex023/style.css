@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/* em html é id no css é #
+em html é class no css é .
+ */
+
+/* configurações genericas */
+
+body {
+    background-color: rgb(144, 236, 144);
+    font: normal 1em arial, sans-serif; 
+}
+
+h1 {
+    font-size: 2em;
+    color: rgb(8, 94, 8);
+}
+
+p {
+    text-align: justify;
+    text-indent: 2em;
+}
+
+mark {
+    background-color: #ffff00;
+}
+/* usando indentificador(id) */
+#titulo-principal {
+    background-color: rgb(8, 94, 8);
+    color: rgb(144, 236, 144);
+    font-size: 3em;
+    text-align: center;
+}
+
+/* uso de classes */
+.basico { 
+    background-color: rgba(148, 148, 219, 0.623);
+
+}
+
+.intermediario {
+    background-color: rgba(148, 85, 85, 0.801);
+}
+
+.avancado {
+    background-color: red;
+    color:white;
+}
